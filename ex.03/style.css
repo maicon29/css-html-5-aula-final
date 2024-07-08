@@ -1,0 +1,13 @@
+div.containerpai {
+    background-color: bisque;
+    display: flex;
+    height: ;
+    flex-flow:  ;
+}
+div.item {
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    flex: auto;
+    
+}
