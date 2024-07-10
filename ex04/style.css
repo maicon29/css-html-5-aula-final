@@ -1,13 +1,9 @@
-div.conteinerpai {
+div.containerpai {
     background-color: bisque;
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
 }
 div.item {
     background-color: blueviolet;
     border: 1px solid black;
-    text-align: center;
-   
-    
+    flex: auto;
 }
