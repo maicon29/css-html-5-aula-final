@@ -1,8 +1,9 @@
-div.conteinerpai {
+div.conteiner {
     background-color: bisque;
+
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
+  flex-flow: row nowrap;
+  justify-content: space-around;
 }
 div.item {
     background-color: blueviolet;
