@@ -1,8 +1,7 @@
 div.containerpai {
     background-color: bisque;
     display: flex;
-    height: ;
-    flex-flow:  ;
+    flex-flow: wrap-reverse ;
 }
 div.item {
     background-color: blueviolet;
