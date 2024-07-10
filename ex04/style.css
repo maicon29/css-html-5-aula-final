@@ -1,15 +1,24 @@
-div.conteiner {
-    background-color: bisque;
+*{
+    margin: 0px;
+    height: 0px;
+    box-sizing: 0px;
+}
+body{
+    background-color: blanchedalmond;
+}
+main{
+    background-color: rgb(122, 91, 62);
+    height: 100vh;
+    width: 100vw;
 
     display: flex;
-    height: 50px;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-
 }
-div.item {
-    background-color: rgb(139, 137, 141);
-    border: 1px solid black;
-    text-align: center;
+section{
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+
 }
