@@ -1,14 +1,13 @@
 div.conteiner {
-    background-color: bisque;
-
+    background-color: blanchedalmond;
     display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
+
 div.item {
-    background-color: blueviolet;
+    background-color: lightblue;
     border: 1px solid black;
     text-align: center;
-   
-    
 }

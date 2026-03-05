@@ -1,9 +1,14 @@
-div.containerpai {
+div.conteiner {
     background-color: bisque;
+
     display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    height: 400px;
 }
 div.item {
     background-color: blueviolet;
     border: 1px solid black;
-    flex: auto;
+    text-align: center;
+    padding: 40px;
 }
