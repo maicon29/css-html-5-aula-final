@@ -1,0 +1,39 @@
+div.conteiner {
+    background-color: bisque;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+
+    height: 400px;
+
+}
+div.item {
+    background-color: blueviolet;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+  
+}
+
+div#i1 {
+    
+}
+div#i2 {
+   align-self: auto;
+
+}
+div#i3 {
+    align-self: flex-end;
+} 
+div#i4 {
+    
+}
+div#i5 {
+    align-self: flex-start;
+}
+div#i6 {
+    align-self: center;
+}
+div#i7 {
+    align-self: stretch;
+}
