@@ -2,14 +2,21 @@ div.conteiner {
     background-color: bisque;
     display: flex;
     flex-flow: row nowrap;
-
 }
 div.item {
     background-color: blueviolet;
     border: 1px solid black;
     text-align: center;
-    flex-basis: 150px;
-    flex-shrink: 1; 
-    flex-grow: 1;
+    flex-basis: 200px;
+}
+div#cxA {
+flex: 1 1 200px;
+}
+div#cxB {
+flex: 1 1 200px;
+}
+div#cxC {
+flex: 1 1 200px;
    
 }
+*/ ordem dos valores simplificados: flex-grow, flex-shrink, flex-basis */
